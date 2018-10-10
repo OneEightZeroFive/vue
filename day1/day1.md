@@ -71,3 +71,17 @@ vue不会把重心放在操作节点，而是放在操作数据
 {{}}代替$("").text()
 :代替$("").attr()
 代替$("").click
+
+
+# 指令
+
+```js
+v-text $().text
+v-html $().html()
+v-show $().show()
+v-if   $().append/remove
+v-for  $().each()
+v-bind : $().attr/css/addClass
+v-model $().val()
+v-on  @  $().on()
+```
